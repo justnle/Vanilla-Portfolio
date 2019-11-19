@@ -2,6 +2,7 @@ html, body {
     height: 100%;
 }
 
+/* main content */
 body {
     display: flex;
     flex-direction: column;
@@ -12,21 +13,25 @@ body {
     margin: 0 auto;
 }
 
+/* header */
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0;
     padding: 0;
 }
 
+/* sticky footer styling */
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666;
 }
 
+/* giving img margin */
 img {
     margin: 15px 0;
 }
 
+/* my picture, centered */
 .pic-centered {
     display: block;
     margin-left: auto;
@@ -34,6 +39,7 @@ img {
     width: 25%;
 }
 
+/* header nav bar */
 .top-bar {
     display: flex;
     flex-direction: row;
@@ -44,18 +50,21 @@ img {
     padding: 0 5px 0 0;
 }
 
+/* my name text */
 #name {
     background-color: #4aaaa5;
     padding: 0 30px;
     color: #fff;
 }
 
+/* about me text */
 #about {
     border-bottom: 3px solid #ccc;
     margin: 50px 20px 0 20px;
     color: #4aaaa5;
 }
 
+/* content in about me */
 #main {
     align-self: center;
     width: 960px;
@@ -63,6 +72,26 @@ img {
     border: 1px solid #ddd;
 }
 
+/* sticky footer */
 .footer {
     flex-shrink: 0;
+}
+
+/* regular font color */
+p, a {
+    color: #777;
+}
+
+/* links to other html pages */
+#links {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+}
+
+/* divider between the links */
+.divider {
+    width: 1px;
+    background-color: #ddd;
+    margin: 0 15px;
 }
