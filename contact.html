@@ -25,25 +25,29 @@
 
     <div id="main">
         <div id="main-header">
-            <header><h2>Contact</h2></header>
+            <header><h1>Contact</h1></header>
         </div>
 
         <div id="form">
-            <form>
-                Name<br>
-                <input type="text" name="fullname"><br>
-                Email<br>
-                <input type="text" name="email"><br>
-                Message<br>
-                <input type="text" name="message"><br>
+            <form class="contact">
+                <label for="name">Name</label>
+                <input type="text" name="fullname">
+
+                <label for="email">Email</label>
+                <input type="text" name="email">
+
+                <label for="message">Message</label>
+                <textarea id="message-box" name="message"></textarea>
+
                 <input type="submit" value="Submit" id="submit">
             </form>
         </div>
     </div>
 
-    <footer class="footer">
-        <p class="footer">Copyright</p>
-    </footer>
-    
+    <div>
+        <footer class="footer">
+            <p class="footer">Copyright ©</p>
+        </footer>
+    </div>
 </body>
 </html>
