@@ -25,6 +25,8 @@ header, #submit {
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666;
+    padding-top: 20px;
+    margin: 0 auto;
 }
 
 /* my picture, centered */
@@ -70,7 +72,7 @@ footer {
 }
 
 /* regular font & font color */
-p, a, form, body, input, #message-box {
+p, a, form, body, input, #message-box, #submit {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
@@ -103,14 +105,16 @@ form {
 
 #submit {
     align-self: flex-start;
-    width: 75px;
-    height: 35px;
+    width: 110px;
+    height: 40px;
     margin-top: 10px;
+    border: 0px;
 }
 
 /* sticky footer */
 .footer {
     flex-shrink: 0;
+    margin: 5px auto;
 }
 
 #name, #submit, .footer {
@@ -128,6 +132,7 @@ form {
     width: 100%;
 } */
 
+/* portfolio page columns */
 .columns {
     display: flex;
     flex-flow: row wrap;
@@ -137,16 +142,26 @@ form {
 #message-box {
     height: 200px;
     border-color: #ddd;
-    font-size: 100%;
-}
-
-input {
-    display: inline-block;
-    height: 25px;
-    font-size: 100%;
+    font-size: 80%;
     padding-left: 5px;
 }
 
+/* form input text */
+input {
+    height: 25px;
+    font-size: 80%;
+    padding-left: 5px;
+    margin: 5px 0;
+}
+
+/* form labels (name, email, message) */
 label {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
+    font-size: 1.25em;
+    font-weight: 525;
+}
+
+/* removes underline from links in nav bar */
+a:link {
+    text-decoration: none;
 }
