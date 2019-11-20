@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* main content */
@@ -7,14 +8,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
     /* change this background-image link later */
     background-image: url(/Users/Justin/twoplatinumchainz/assets/images/ripples.png);
     margin: 0 auto;
 }
 
 /* header */
-header {
+header, #submit {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 0;
     padding: 0;
@@ -26,13 +27,9 @@ footer {
     background-color: #666;
 }
 
-/* giving img margin */
-img {
-    margin: 15px 0;
-}
-
 /* my picture, centered */
-.pic-centered {
+.profile-pic {
+    margin-top: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -40,7 +37,7 @@ img {
 }
 
 /* header nav bar */
-.top-bar {
+.nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,34 +49,30 @@ img {
 
 /* my name text */
 #name {
-    background-color: #4aaaa5;
     padding: 0 30px;
-    color: #fff;
 }
 
 /* about me text */
-#about {
+#main-header {
     border-bottom: 3px solid #ccc;
-    margin: 50px 20px 0 20px;
     color: #4aaaa5;
 }
 
-/* content in about me */
+/* content in the main container */
 #main {
+    display: flex;
+    flex-direction: column;
     align-self: center;
     width: 960px;
     background-color: #fff;
     border: 1px solid #ddd;
+    padding: 40px 20px 10px 20px;
 }
 
-/* sticky footer */
-.footer {
-    flex-shrink: 0;
-}
-
-/* regular font color */
-p, a {
+/* regular font & font color */
+p, a, form, body, input, #message-box {
     color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 /* links to other html pages */
@@ -94,4 +87,66 @@ p, a {
     width: 1px;
     background-color: #ddd;
     margin: 0 15px;
+}
+
+/* form on the contact page */
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+/* teal color for header and button */
+#name, #submit {
+    background-color: #4aaaa5;
+}
+
+#submit {
+    align-self: flex-start;
+    width: 75px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+/* sticky footer */
+.footer {
+    flex-shrink: 0;
+}
+
+#name, #submit, .footer {
+    color: #fff;
+}
+
+#projects {
+    padding: 30px 0;
+}
+
+/* .rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+} */
+
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#message-box {
+    height: 200px;
+    border-color: #ddd;
+    font-size: 100%;
+}
+
+input {
+    display: inline-block;
+    height: 25px;
+    font-size: 100%;
+    padding-left: 5px;
+}
+
+label {
+    margin-bottom: 5px;
 }
