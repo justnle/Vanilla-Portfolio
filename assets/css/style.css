@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; */
     /* change this background-image link later */
     background-image: url(/Users/Justin/twoplatinumchainz/assets/images/ripples.png);
     margin: 0 auto;
@@ -56,8 +55,9 @@ footer {
 
 /* about me text */
 #main-header {
-    border-bottom: 3px solid #ccc;
+    border-bottom: 3px solid #cccccc;
     color: #4aaaa5;
+    /* padding: 20px 0; */
 }
 
 /* content in the main container */
@@ -65,10 +65,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-self: center;
-    width: 960px;
+    /* width: 960px; */
     background-color: #fff;
     border: 1px solid #ddd;
-    padding: 40px 20px 10px 20px;
+    /* padding: 40px 20px 10px 20px; */
+    padding: 20px;
+    width: 940px;
+
 }
 
 /* regular font & font color */
@@ -95,7 +98,7 @@ p, a, form, body, input, #message-box, #submit {
 form {
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding: 30px 0 20px 0;
 }
 
 /* teal color for header and button */
@@ -103,12 +106,14 @@ form {
     background-color: #4aaaa5;
 }
 
+/* submit button */
 #submit {
     align-self: flex-start;
-    width: 110px;
-    height: 40px;
+    width: 130px;
+    height: 45px;
     margin-top: 10px;
     border: 0px;
+    font-size: 1.25em;
 }
 
 /* sticky footer */
@@ -117,30 +122,42 @@ form {
     margin: 5px auto;
 }
 
+p.footer {
+    font-size: 0.5em;
+    font-weight: 50;
+    color: #ddd;
+    padding-bottom: 5px;
+}
+
 #name, #submit, .footer {
     color: #fff;
 }
 
-#projects {
+.projects-container {
     padding: 30px 0;
 }
 
-/* .rows {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-} */
-
 /* portfolio page columns */
-.columns {
+.projects {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-direction: column;
+}
+
+.first-row, .second-row, .third-row {
+    display: flex;
+    justify-content: center;
+}
+
+.third-row {
+    padding-bottom: 0;
+}
+
+.project-picture {
+    margin: 0 15px 40px 15px;
 }
 
 #message-box {
-    height: 200px;
+    height: 250px;
     border-color: #ddd;
     font-size: 80%;
     padding-left: 5px;
@@ -149,8 +166,8 @@ form {
 /* form input text */
 input {
     height: 25px;
-    font-size: 80%;
-    padding-left: 5px;
+    font-size: 100%;
+    padding-left: 10px;
     margin: 5px 0;
 }
 
