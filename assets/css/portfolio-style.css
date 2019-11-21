@@ -1,3 +1,4 @@
+/* container for all the project info */
 .projects-container {
     padding: 30px 0;
     /* width: 50%; */
@@ -13,10 +14,6 @@
 .first-row, .second-row, .third-row {
     display: flex;
     justify-content: center;
-}
-
-.third-row {
-    padding-bottom: 0;
 }
 
 /* images of the project */
