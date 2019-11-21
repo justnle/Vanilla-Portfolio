@@ -1,13 +1,10 @@
 /* container for all the project info */
 .projects-container {
-    padding: 30px 0;
-    /* width: 50%; */
-}
-
-/* portfolio page columns */
-.projects {
     display: flex;
     flex-direction: column;
+    position: relative;
+    padding-top: 30px;
+    /* width: 50%; */
 }
 
 /* rows of project images */
@@ -17,6 +14,31 @@
 }
 
 /* images of the project */
-.project-picture {
+img.project-picture, .project-name {
     margin: 0 15px 40px 15px;
+}
+
+/* container for the project pictures */
+.project-pics-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* container for the name of the projects */
+.project-names-container {
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+/* the name of the projects */
+.project-name {
+    background-color: #4aaaa5;
+    width: inherit;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
 }
