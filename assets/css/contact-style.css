@@ -1,17 +1,5 @@
 /* css style sheet for the contact.html page */
 
-/* submit button */
-#submit {
-    background-color: #4aaaa5;
-    color: #fff;
-    align-self: flex-start;
-    width: 130px;
-    height: 45px;
-    margin-top: 10px;
-    border: 0px;
-    font-size: 1.25em;
-}
-
 /* contact page form */
 form {
     display: flex;
@@ -46,4 +34,16 @@ label {
 input, #submit, #message-box {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* submit button */
+#submit {
+    background-color: #4aaaa5;
+    color: #fff;
+    align-self: flex-start;
+    width: 130px;
+    height: 45px;
+    margin-top: 10px;
+    border: 0px;
+    font-size: 1.25em;
 }
