@@ -6,10 +6,8 @@ html, body {
 }
 
 /* setting header font */
-header {
+header, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* margin-top: 0;
-    padding: 0; */
 }
 
 /* header nav bar */
@@ -53,8 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* change this background-image link later */
-    background-image: url(/Users/Justin/twoplatinumchainz/assets/images/ripples.png);
+    background-image: url(https://github.com/twopcz/twoplatinumchainz/blob/master/assets/images/white-waves.png?raw=true);
     margin: 0 auto;
 }
 
@@ -62,7 +59,6 @@ body {
 #main-header {
     border-bottom: 3px solid #cccccc;
     color: #4aaaa5;
-    /* padding: 20px 0; */
 }
 
 /* main content container */
@@ -72,8 +68,7 @@ body {
     align-self: center;
     background-color: #fff;
     border: 1px solid #ddd;
-    /* max-width: 890px; */
-    width: 890px;
+    width: 888px;
     padding: 40px 35px 10px 35px;
 }
 
@@ -104,6 +99,6 @@ p.footer {
 }
 
 /* makes name and copyright white */
-#name, .footer {
+#name, .footer, h4 {
     color: #fff;
 }
