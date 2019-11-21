@@ -4,7 +4,6 @@
     flex-direction: column;
     position: relative;
     padding-top: 30px;
-    /* width: 50%; */
 }
 
 /* rows of project images */
@@ -14,7 +13,8 @@
 }
 
 /* images of the project */
-img.project-picture, .project-name {
+.project-picture, .project-name {
+    width: 150px;
     margin: 0 15px 40px 15px;
 }
 
