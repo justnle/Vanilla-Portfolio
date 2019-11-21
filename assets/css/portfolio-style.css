@@ -1,0 +1,25 @@
+.projects-container {
+    padding: 30px 0;
+    /* width: 50%; */
+}
+
+/* portfolio page columns */
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+/* rows of project images */
+.first-row, .second-row, .third-row {
+    display: flex;
+    justify-content: center;
+}
+
+.third-row {
+    padding-bottom: 0;
+}
+
+/* images of the project */
+.project-picture {
+    margin: 0 15px 40px 15px;
+}
