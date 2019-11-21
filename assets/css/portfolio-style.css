@@ -41,4 +41,6 @@ img.project-picture, .project-name {
     padding: 15px 0;
     display: flex;
     justify-content: center;
+    font-weight: 100;
+    font-size: 0.9em;
 }
