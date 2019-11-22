@@ -1,1 +1,2 @@
-# twoplatinumchainz
+# My Portfolio Page
+This is a barebones portfolio page, featuring an 'About Me,' a 'Contact,' and a 'Portfolio' page where my projects that I complete in the UW Coding Bootcamp will be displayed. A portfolio page is extremely important for a developer to showcase their work and talent, and my goal is to transform this from a basic website into one that looks/functions amazingly.  This project consists of pretty basic HTML & CSS, consisting of the material that we have learned in the first four sessions. I relied heavily on flexbox to arrange the elements on the pages which is a new concept for me, so getting my pages to resemble the homework requirements was challenging. Hoping that this gets an A+! :100:
