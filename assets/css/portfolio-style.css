@@ -1,4 +1,3 @@
-/* container for all the project info */
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -6,26 +5,22 @@
     padding-top: 30px;
 }
 
-/* rows of project images */
 .first-row, .second-row, .third-row {
     display: flex;
     justify-content: center;
 }
 
-/* images of the project */
 .project-picture, .project-name {
     width: 150px;
     margin: 0 15px 40px 15px;
 }
 
-/* container for the project pictures */
 .project-pics-container {
     position: relative;
     display: flex;
     align-items: center;
 }
 
-/* container for the name of the projects */
 .project-names-container {
     position: absolute;
     display: flex;
@@ -34,7 +29,6 @@
     width: 100%;
 }
 
-/* the name of the projects */
 .project-name {
     background-color: #4aaaa5;
     width: inherit;
