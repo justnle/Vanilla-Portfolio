@@ -17,6 +17,7 @@
 }
 
 .project-pictures, .project-names {
+    max-width: 250px;
     margin: 0 15px 20px 15px;
 }
 
