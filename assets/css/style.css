@@ -47,7 +47,7 @@ body {
     background-image: url(https://github.com/twopcz/twoplatinumchainz/blob/master/assets/images/white-waves.png?raw=true);
     margin: 0 auto;
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .content-header {
@@ -72,21 +72,20 @@ p, a, form, body {
 }
 
 .sticky-footer {
-    position: absolute;
     flex-shrink: 0;
-    /* left: 0 ; right: 0; bottom: 0; */
 }
 
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666;
-    height: 40px;
 }
 
 p.footer {
     font-size: 0.5em;
     font-weight: 50;
     color: #ddd;
+    padding: 20px 0 5px 0;
+    margin-bottom: 0;
 }
 
 .my-name, .sticky-footer, h4 {
