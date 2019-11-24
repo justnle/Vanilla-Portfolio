@@ -5,12 +5,10 @@ html, body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/* setting header font */
 header, h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* header nav bar */
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -21,48 +19,43 @@ header, h4 {
     padding: 0 5px 0 0;
 }
 
-/* padding around my name logo */
-#name {
+.my-name {
     background-color: #4aaaa5;
     padding: 0 30px;
 }
 
-/* links to other html pages in nav bar */
-.links {
+.nav-links {
     display: flex;
     flex-direction: row;
     padding: 0 10px;
 }
 
-/* removes underline from links in nav bar */
 a:link {
     text-decoration: none;
 }
 
-/* divider between the links */
-.divider {
+.link-divider {
     width: 1px;
     background-color: #ddd;
     margin: 0 15px;
 }
 
-/* body of the page with background image */
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-image: url(https://github.com/twopcz/twoplatinumchainz/blob/master/assets/images/white-waves.png?raw=true);
     margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
 }
 
-/* header of the main content container */
-#main-header {
+.content-header {
     border-bottom: 3px solid #cccccc;
     color: #4aaaa5;
 }
 
-/* main content container */
-#main {
+.main-content {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -72,33 +65,30 @@ body {
     padding: 40px 35px 10px 35px;
 }
 
-/* regular font & font color */
 p, a, form, body {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/* sticky footer */
-.footer {
-    flex-shrink: 0;
+.sticky-footer {
+    position: absolute;
+    flex-shrink: 1;
+    left: 0 ; right: 0; bottom: 0;
 }
 
-/* sticky footer styling */
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #666;
+    height: 40px;
+    margin-bottom: 5px;
 }
 
-/* style and position 'Copyright' text */
 p.footer {
     font-size: 0.5em;
     font-weight: 50;
     color: #ddd;
-    margin-bottom: 5px;
-    padding: 20px 0 5px 0;
 }
 
-/* makes name and copyright white */
-#name, .footer, h4 {
+.my-name, .sticky-footer, h4 {
     color: #fff;
 }
