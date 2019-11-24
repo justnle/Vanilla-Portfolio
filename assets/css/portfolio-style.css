@@ -12,8 +12,8 @@
 }
 
 .project-names {
-    z-index: 100;
     position: absolute;
+    bottom: 25px;
 }
 
 .project-pictures, .project-names {
@@ -21,16 +21,11 @@
     margin: 0 15px 20px 15px;
 }
 
-.project-pictures-adjustment {
-    margin-right: 40%;
-}
-
 .project-names {
     background-color: #4aaaa5;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 90px;
 }
 
 .project-header {
