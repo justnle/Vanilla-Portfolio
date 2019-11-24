@@ -29,7 +29,7 @@ label {
 }
 
 input, .submit-button, .message-box {
-    color: #777;
+    /* color: #777; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
